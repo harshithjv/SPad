@@ -11,8 +11,11 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        spad_frontend.cpp
+        spad_frontend.cpp \
+    fileform.cpp
 
-HEADERS  += spad_frontend.h
+HEADERS  += spad_frontend.h \
+    fileform.h
 
-FORMS    += spad_frontend.ui
+FORMS    += spad_frontend.ui \
+    fileform.ui
